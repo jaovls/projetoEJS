@@ -1,0 +1,17 @@
+{
+  "name": "projetoweb",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Joao Vitor",
+  "license": "ISC",
+  "description": "Aprendendo EJS",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
