@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(imgs/fundoMinimalista.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixaErro{
+    color: white;
+    text-align: center;
+}
+
+.caixaErro h3{
+    max-width: 350px;
+}

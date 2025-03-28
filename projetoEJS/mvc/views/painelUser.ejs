@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel de Usuários</title>
+  <script defer src="gerenciar.js"></script>
+  <link rel="shortcut icon" href="/img/img-dengue-logo.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/painelUser.css">
+</head>
+
+<body>
+  <div class="ui container">
+
+    <main>
+      <h1 class="ui header">Gerenciar Usuário</h1>
+
+      <div class="ui segment">
+        <h2 class="ui header">Lista</h2>
+        <table class="ui celled table">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Email</th>
+              <th scope="col">Edição</th>
+            </tr>
+          </thead>
+          <tbody id="tbalimentar">
+            <!-- Exemplo de dados na tabela -->
+            <tr>
+              <td>1</td>
+              <td>João Silva</td>
+              <td>email01</td>
+              <td><button id="btnRemover" class="ui primary button">Remover</button> <button id="btnEditar" class="ui primary button">Editar</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ana Souza</td>
+              <td>Usuário</td>
+              <td><button id="btnRemover" class="ui primary button">Remover</button> <button id="btnEditar" class="ui primary button">Editar</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="ui segment">
+        <h2 class="ui header">Adicionar Usuário</h2>
+        <div class="ui action input">
+        
+          <input type="text" id="nome" class="prompt" placeholder="Nome do usuário">
+          <input type="text" id="email" class="prompt" placeholder="Email">
+          <button id="btnAdicionar" class="ui primary button" type="submit">Adicionar</button>
+          
+
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://kit.fontawesome.com/3861b94135.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+
+</html>

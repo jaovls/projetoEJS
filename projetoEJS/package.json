@@ -1,0 +1,20 @@
+{
+  "name": "projetoweb",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Joao Vitor",
+  "license": "ISC",
+  "description": "Aprendendo EJS",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "patch": "^0.0.1"
+  }
+}

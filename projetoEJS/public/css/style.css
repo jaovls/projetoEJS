@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(imgs/fundoMinimalista.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxInput{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: 0px 0px 37px 5px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 0px 37px 5px rgba(0,0,0,0.38);
+    box-shadow: 0px 0px 37px 5px rgba(0,0,0,0.38);
+    backdrop-filter: blur(50px);
+}

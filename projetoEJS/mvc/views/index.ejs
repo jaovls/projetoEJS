@@ -1,0 +1,43 @@
+<!-- Dentro do seu arquivo EJS -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página com Semantic UI</title>
+  <!-- Link para o CSS do Semantic UI via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="boxInput">
+
+        <form action="/login" method="post" class="ui form">
+            <div class="field">
+                <label style="color: white;">Usuário</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Digite seu Usuário">
+              </div>
+            <div class="field">
+              <label style="color: white;">Email</label>
+              <input type="text" name="email" id="email" placeholder="Digite seu Email">
+            </div>
+            <div class="field">
+              <label style="color: white;">Senha</label>
+              <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+            <div class="field">
+              <div class="ui checkbox">
+                <input type="checkbox" tabindex="0" class="hidden">
+                <label style="color: white;">Lembrar-me</label>
+              </div>
+            </div>
+            <button class="ui primary button" type="submit">Entrar</button>
+          </form>
+
+    </div>
+  <!-- Link para o JS do Semantic UI via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+</html>

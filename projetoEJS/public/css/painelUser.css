@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+#btnRemover{
+    background-color: red;
+    transition: 0.1s;
+}
+
+#btnRemover:hover{
+    background-color: rgb(235, 64, 64); 
+}
+
+#btnEditar{
+    background-color: green;
+    transition: 0.1s;
+}
+
+#btnEditar:hover{
+    background-color: rgb(32, 158, 32);
+}
